@@ -11,8 +11,8 @@ private:
 	// nuts and bolts.. should not need to touch this.
 	std::default_random_engine generator;
 	int genMax;
-	std::uniform_int_distribution<int> *intmax;
-	std::uniform_real_distribution<double> *real01;
+	std::uniform_int_distribution<int>* intmax;
+	std::uniform_real_distribution<double>* real01;
 
 public:
 	// constructor
